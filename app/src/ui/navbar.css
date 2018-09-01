@@ -1,0 +1,45 @@
+#iiitv
+{
+left: -180px;
+position: relative;
+height:50px;
+width :50px;
+
+}
+
+#nav
+{
+	z-index: 999;
+background-color:#70c0e4;
+position:fixed;
+height:60px;
+width:100%;
+margin-bottom: 20px;
+
+}
+#place
+{
+	font-weight: bold;
+	font-size: 22px;
+	color: black;
+	position:relative;
+	left:100px;
+}
+#place1
+{
+	font-size: 15px;
+	color: black;
+	position:relative;
+	left:820px;
+}
+#place2
+{
+	font-size: 15px;
+	color: black;
+	position:relative;
+	left:830px;
+}
+#check{
+    color: #fff!important;
+    background-color:#0075ff ;
+}

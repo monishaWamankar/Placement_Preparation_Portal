@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <script type="sidebar3.js"></script>
+      <link rel="stylesheet" href="navbar.css">
+      <link rel="stylesheet" href="work.css">
+      <title>Group Discussion</title>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <link rel="stylesheet" href="indexstyle.css">
+      <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="/scripts/js.cookie.js"></script>
+      <script> 
+         $(document).ready(function(){
+             $("#flip").click(function(){
+                 $("#panel").slideToggle("slow");
+             });
+         });
+         
+         $(document).ready(function(){
+             $("#flip2").click(function(){
+                 $("#panel2").slideToggle("slow");
+             });
+         });
+         
+         $(document).ready(function(){
+             $("#flip3").click(function(){
+                 $("#panel3").slideToggle("slow");
+             });
+         });
+         
+         $(document).ready(function(){
+             $("#flip4").click(function(){
+                 $("#panel4").slideToggle("slow");
+             });
+         });
+         
+         $(document).ready(function(){
+             $("#flip5").click(function(){
+                 $("#panel5").slideToggle("slow");
+             });
+         });
+         
+         $(document).ready(function(){
+             $("#flip6").click(function(){
+                 $("#panel6").slideToggle("slow");
+             });
+         });
+         
+         $(document).ready(function(){
+             $("#flip7").click(function(){
+                 $("#panel7").slideToggle("slow");
+             });
+         });
+         
+         
+         function myFunction() {
+             document.getElementById("myDropdown").classList.toggle("show");
+         }
+         
+         // Close the dropdown if the user clicks outside of it
+         window.onclick = function(event) {
+           if (!event.target.matches('.dropbtn')) {
+         
+             var dropdowns = document.getElementsByClassName("dropdown-content");
+             var i;
+             for (i = 0; i < dropdowns.length; i++) {
+               var openDropdown = dropdowns[i];
+               if (openDropdown.classList.contains('show')) {
+                  
+               }
+             }
+           }
+         }
+      </script>
+      <style> 
+         #panel, #flip {
+         text-align: center;
+         background-color: #e5eecc;
+         border: solid 1px #94ccd8;
+         }
+         #panel {
+         margin-left: -20px;
+         margin-right: -30px;
+         padding: 10px;
+         display: none;
+         }
+         #panel2, #flip2 {
+         text-align: center;
+         background-color: #e5eecc;
+         border: solid 1px #94ccd8;
+         }
+         #panel2 {
+         margin-left: -20px;
+         margin-right: -30px;
+         padding: 10px;
+         display: none;
+         }
+         #panel3, #flip3 {
+         text-align: center;
+         background-color: #e5eecc;
+         border: solid 1px #94ccd8;
+         }
+         #panel3 {
+         margin-left: -20px;
+         margin-right: -30px;
+         padding: 10px;
+         display: none;
+         }
+         #panel4, #flip4 {
+         text-align: center;
+         background-color: #e5eecc;
+         border: solid 1px #94ccd8;
+         }
+         #panel4 {
+         margin-left: -20px;
+         margin-right: -30px;
+         padding: 10px;
+         display: none;
+         }
+         #panel5, #flip5 {
+         text-align: center;
+         background-color: #e5eecc;
+         border: solid 1px #94ccd8;
+         }
+         #panel5 {
+         margin-left: -20px;
+         margin-right: -30px;
+         padding: 10px;
+         display: none;
+         }
+         #panel6, #flip6 {
+         text-align: center;
+         background-color: #e5eecc;
+         border: solid 1px #94ccd8;
+         }
+         #panel6 {
+         margin-left: -20px;
+         margin-right: -30px;
+         padding: 10px;
+         display: none;
+         }
+         #panel7, #flip7 {
+         text-align: center;
+         background-color: #e5eecc;
+         border: solid 1px #94ccd8;
+         }
+         #panel7 {
+         margin-left: -20px;
+         margin-right: -30px;
+         padding: 10px;
+         display: none;
+         }
+         #panel8, #flip8 {
+         text-align: center;
+         background-color: #e5eecc;
+         border: solid 1px #94ccd8;
+         }
+         #panel8 {
+         margin-left: -20px;
+         margin-right: -30px;
+         padding: 10px;
+         display: none;
+         }
+         .dropbtn {
+         color: white;
+         padding: 16px;
+         font-size: 16px;
+         border: none;
+         cursor: pointer;
+         }
+         .dropdown {
+         position: relative;
+         display: inline-block;
+         }
+         .dropdown-content {
+         display: none;
+         width: 400px;
+         position: absolute;
+         background-color: #f9f9f9;
+         min-width: 160px;
+         overflow: auto;
+         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+         z-index: 1;
+         }
+         .dropdown-content a {
+         color: black;
+         padding: 12px 16px;
+         text-decoration: none;
+         display: block;
+         }
+         .dropdown a:hover {background-color: #f1f1f1}
+         .show {display:block;}
+      </style>
+      <!-- Bootstrap Core CSS -->
+      <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+      <!-- MetisMenu CSS -->
+      <link href="../vendor/metisMenu/metisMenu.min.css" rel="stylesheet">
+      <!-- Custom CSS -->
+      <link href="../dist/css/sb-admin-2.css" rel="stylesheet">
+      <!-- Custom Fonts -->
+      <link href="../vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+      <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+   </head>
+   <body >
+      <script type="text/javascript" src ="moderator.js" ></script>
+      <div id="popup1" class="overlay">
+         <div class="container-fluid" id="nav">
+            <div class="navbar-header">
+               <a class="navbar-brand" id = "place" href="#" style="font-weight: bold;">PLACEMENT CELL</a>
+               <img id="iiitv" src="1.png" style=""></img>
+               <a class="navbar-brand  dropbtn" onclick="myFunction()"  id = "place1" href="#">CHANGE PASSWORD</a>
+               <div id="myDropdown" class="dropdown-content" style="float: right; margin-left: 1052px;">
+                  <div>
+                     <form action="" style="margin:15px">
+                        <p style="text-align: left; margin-left: 0px"><b>Old Password</b></p>
+                        <input type="password" name="userid" id="oldPass">
+                        <br> 
+                        <p style="text-align: left;margin-left: 0px"><b>New Password</b></p>
+                        <input type="password" name="userid" id="newPass">
+                        <br>
+                        <p style="text-align: left;margin-left: 0px"><b>Confirm Password</b></p>
+                        <input type="password" name="userid" id="newPassConf">
+                        <br><br>
+                        <input type="button" value="Change Password" onClick="changePass();"></input>
+                     </form>
+                  </div>
+               </div>
+               <a class="navbar-brand" onClick="signoutFun();" id = "place2">LOGOUT</a>
+               <div class="three">
+               </div>
+            </div>
+         </div>
+         <div class="container">
+            <div class="row">
+               <div id="wrapper" ">
+                  <!-- Sidebar -->
+                  <div id="sidebar-wrapper" >
+                     <ul class="sidebar-nav" style="margin-left:0;">
+                        <li class="sidebar-brand">
+                           <a href="#menu-toggle"  id="menu-toggle" style="margin-top:35px;" > <i class="  glyphicon glyphicon-list" style="font-size:25px !Important;" aria-hidden="true" aria-hidden="true"></i></a> 
+                        </li>
+                        <li>
+                           <a href="#"><i class="  glyphicon glyphicon-education " aria-hidden="true" style="font-size:26px;"> </i> <span style="margin-left:10px;">CS/IT domains</span>  </a>
+                        </li>
+                        <li>
+                           <a href="#"> <i class="glyphicon glyphicon-book" aria-hidden="true" style="font-size:26px;"> </i> <span style="margin-left:10px;"> Aptitude and Reasoning</span> </a>
+                        </li>
+                        <li>
+                           <a href="#"> <i class=" glyphicon glyphicon-briefcase" aria-hidden="true" style="font-size:26px;"> </i> <span style="margin-left:10px;"> Company Profile</span> </a>
+                        </li>
+                        <li>
+                           <a href="#"> <i class="glyphicon glyphicon-user" aria-hidden="true" style="font-size:26px;"> </i> <span style="margin-left:10px;"> Communication Skills</span> </a>
+                        </li>
+                        <li>
+                           <a href="#"> <i class="glyphicon glyphicon-user" aria-hidden="true" style="font-size:26px;margin-top:240px;"> </i> <span style="margin-left:10px;"> Communication Skills</span> </a>
+                        </li>
+                        <li>
+                           <a href="#"> <i class="glyphicon glyphicon-user" aria-hidden="true" style="font-size:26px;"> </i> <span style="margin-left:10px;"> Communication Skills</span> </a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+               <!-- /#sidebar-wrapper -->
+            </div>
+         </div>
+      </div>
+      <div class="container">
+         <div class="row" style="margin-top: 70px">
+
+         </div>
+         <div class="row">
+
+         </div>
+         <div class="row">
+            <div class="col-lg-3 " style="margin-top: 20px; background-color:#eee ;stroke:black;stroke-width:5;  float: left;
+               width: 1010px;margin-left: 20px;margin-right: 20px;margin-bottom: 20px;box-shadow: 6px 6px 15px #94ccd8 ; 
+               border: 2px solid #94ccd8;overflow-y: auto;overflow-x: hidden;">
+               <div id="flip7" style="  margin-left: -17px; height:50px;width: 1008px; background-color: #70c0e4; padding-left: 10px; padding-top: 5px; font-size: 30px; text-align: left;">Group Discussion</div>
+
+               <style type="text/css">
+                  .tg  {border-collapse:collapse;border-spacing:0;}
+                  .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px; overflow:hidden;word-break:normal;}
+                  .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px; overflow:hidden;word-break:normal;}
+                  .tg .tg-lqy6{ vertical-align:top}
+                  .tg .tg-yw4l{vertical-align:top}
+               </style>
+				<p>An average GD usually features 10 to 15 participants. The GD process begins by the announcement of the topic to the group, which is (usually) followed by a preparation time of 3 to 5 minutes. More than 5 minutes’ prep time may be given only if the GD is a case-study discussion, and has a long case statement. At the end of the prep time, the panel signals the group to commence the discussion, and from then on plays the role of a non-participating observer. This means that the discussion is not moderated or ‘anchored’ by a panellist. The group members must discuss the topic as they deem appropriate without any kind of suggestion from the panel. The panel expects no particular order of speakers to be followed nor a minimum or maximum duration of speaking to be followed by individual participants.</p>
+				<p> &nbsp; &nbsp; &nbsp; The average duration of most GDs is 15 minutes (not including the prep time). In some exceptional cases (such as IIFT), the GD may continue for up to 45 minutes. One must remember that the longer the GD goes on, the more seriously the panel looks at the quality of the content (facts, analysis, explanation and argument) of the participant. The panel usually consists 3 or 4 panellists, who look at various aspects of the participants’ content and delivery. Please remember that the panellists may end the GD whenever they want to, and also extend the GD for as much as they want to. Nobody among the participants is supposed to keep time for the group or act on the assumption that the GD will end after the 15th minute.</p>
+				<p> &nbsp; &nbsp; &nbsp; The GD ends in either of the two ways: first, the panel may abruptly stop the GD and announce the end of the process; second, they may ask a participant (or more than one participant) to summarise the GD. If you are asked to summarise, do remember what summary means – your summary cannot have anything in it that was not discussed during the GD. I especially stress this point as the participants who have been mostly quiet during the GD are usually asked to summarise it, and they tend to take this opportunity to air their views which are not presented during the discussion. The summary must be an objective recapitulation of the important points brought up during the discussion, and the conclusion of the discussion.</p>
+
+				<h4><b>Rule 1:</b> Prepare</h4>
+					<p>Work begins long before you sit for the group discussion. Your performance is as good as your preparation. Half the preparation is about knowledge. If you think you can wing it with aggression, you are mistaken. Find out the kind of topics that are given at the institution or company you are applying for.</p>
+					<p> &nbsp; &nbsp; &nbsp; Prepare well in time with as many topics as you can, not just the ones given in the past, but related ones too. You never know when the subject would be changed. Make a habit of active reading. It’s different from passive reading. Passive reading is where you read merely to understand the subject. Active reading is where you not only understand the subject, but also begin to raise questions and voice your opinion – positive, negative or neutral about the subject. This is critical in the group discussion to counter or support others’ points of view.</p>
+					<p> &nbsp; &nbsp; &nbsp; The next part of rule 1 is to have mock GDs, preferably with differing groups of friends. The point is to train your mind to think of any given topic’s pros and cons in a dynamic situation where you can’t predict the person’s response. More importantly, it is about looking at all the possible angles to the topic. This shows your logical mind, creativity and also your ability to think on your feet which comes with preparation.</p>
+				<h4><b>Rule 2:</b> Know the Participants</h4>
+					<p>Carry a notepad and pen to note down your discussion points as soon as the topic is given. Most people who attend GDs are as focused on their performance as you tend to be. Take a deep breath and when the team introduces itself, note down the participants’ names. In the heat of the discussion, calling out the person’s name is a good way to get his attention. All of us respond instinctively when our name is called out, so use this technique. Not only does it get you their attention, it also shows your people skills and presence of mind.</p>
+				<h4><b>Rule 3:</b> Take Care of your Posture</h4>
+					<p>Your body posture reveals your state of mind. At the same time, it conditions you to a particular way of thinking. Lean back and relax and you will be relaxing the intensity you need in a GD. Lean forward aggressively and there will be a lot of aggression in your tone and posture, causing others to mirror your image and make things more difficult than they can be. Find the balance.</p>
+					<p> &nbsp; &nbsp; &nbsp; Let your body posture be of polite intensity so that you come across as a balanced individual with plenty of energy. This also shows empathy and respect to others when they speak and is an asset that brings you additional points.</p>
+				<h4><b>Rule 4:</b> Take Charge</h4>
+					<p>Take charge of the discussion right at the beginning. It shows your leadership capability. Introduce the topic by setting the framework for the ensuing discussion and state your opening point before leaving it to the group. Further, when it comes to conclusions, many GDs fall through and participants don’t make good use of it although it brings points. Conclude the discussion by summing up if you can. To do this, listen actively throughout the discussion and note down the key highlights – say, in columns of negative and positive points on your notepad or any other format that suits the discussion.</p>
+				<h4><b>Rule 5:</b> Retain Your Balance</h4>
+					<p>During the discussion itself, give your logical counterpoint without aggression when there is a disagreement. You are not there to prove that your stand is right, but to show your maturity and logical thinking. When the discussion drags over a point, it is time for you to interject and turn the discussion in a new direction, either with a related point or with an opposite view.</p>
+					<p> &nbsp; &nbsp; &nbsp; Be to the point and intervene when another candidate is taking all the airtime. When he pauses for breath is a good time to take your chance, state your point and then, pass the chance to someone who hasn’t had his say. Through this, you show your no-nonsense nature while remaining empathetic.
+				<h4><b>Rule 6:</b> Follow the Company Culture</h4>
+					<p>Companies have a culture of their own. Some are highly aggressive, others less so. This factor reflects in their objectives for the candidates they recruit. Aggressive companies would expect you to stand for yourself in an aggressive environment. Companies with a more empathetic culture would look askance at it. Know the company culture beforehand. In either case, look out for yourself. But, don’t take all the airtime. You will look immature and self-centered.</p>
+				<h4><b>Rule 7:</b> Follow your Domain</h4>
+					<p>Each department within the company is likely to have a culture of its own. Human Resources is one of the most approachable ones by the very nature of its domain; sales is likely to be aggressive; marketing, a combination of the creative and the operational while being people-oriented since it has to bring sales and finance functions over the same platform and so on. Keep the domain in mind while projecting your image. Let’s suppose you are facing a group discussion for a sales function, you may have to take a more aggressive approach whereas a marketing function could veer towards the creative and the practical approach in assessment.</p>
+            </div>
+         </div>
+         <div  class = "row" style="background-color: #70c0e4; width:100;text-align: center; height: 60px;margin-left: -200px;margin-right: -200px; ">
+            <h3 style="font-size: 20px;"> Copyright © 2017 iiitv </h3>
+         </div>
+      </div>
+      <script>
+         $("#menu-toggle").click(function(e) {
+             e.preventDefault();
+             $("#wrapper").toggleClass("toggled");
+         });
+      </script>
+   </body>
+</html>

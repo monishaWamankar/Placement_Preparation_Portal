@@ -1,0 +1,18 @@
+#image
+{  
+ position :relative;
+ left : -270px;
+
+	height: 50px;
+	width : 50px;
+}
+#search
+{
+	position :relative;
+	left :500px;
+}
+#icon
+{
+	position :relative;
+	left :500px;
+}

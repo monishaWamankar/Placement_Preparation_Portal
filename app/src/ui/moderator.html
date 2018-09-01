@@ -1,0 +1,596 @@
+<!-- https://moodle.org/mod/forum/discuss.php?d=144080 -->
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <script type="sidebar3.js"></script>
+      <link rel="stylesheet" href="/ui/navbar.css">
+      <link rel="stylesheet" href="/ui/work.css">
+      <title>moderator</title>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <link rel="stylesheet" href="/ui/indexstyle.css">
+      <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="/scripts/js.cookie.js"></script>
+      <script> 
+         $(document).ready(function(){
+             $("#flip").click(function(){
+                 $("#panel").slideToggle("slow");
+             });
+         });
+         
+         $(document).ready(function(){
+             $("#flip2").click(function(){
+                 $("#panel2").slideToggle("slow");
+             });
+         });
+         
+         $(document).ready(function(){
+             $("#flip3").click(function(){
+                 $("#panel3").slideToggle("slow");
+             });
+         });
+         
+         $(document).ready(function(){
+             $("#flip4").click(function(){
+                 $("#panel4").slideToggle("slow");
+             });
+         });
+         
+         $(document).ready(function(){
+             $("#flip5").click(function(){
+                 $("#panel5").slideToggle("slow");
+             });
+         });
+         
+         $(document).ready(function(){
+             $("#flip6").click(function(){
+                 $("#panel6").slideToggle("slow");
+             });
+         });
+         
+         $(document).ready(function(){
+             $("#flip7").click(function(){
+                 $("#panel7").slideToggle("slow");
+             });
+         });
+         
+         
+         function myFunction() {
+             document.getElementById("myDropdown").classList.toggle("show");
+         }
+         
+         // Close the dropdown if the user clicks outside of it
+         window.onclick = function(event) {
+           if (!event.target.matches('.dropbtn')) {
+         
+             var dropdowns = document.getElementsByClassName("dropdown-content");
+             var i;
+             for (i = 0; i < dropdowns.length; i++) {
+               var openDropdown = dropdowns[i];
+               if (openDropdown.classList.contains('show')) {
+                  
+               }
+             }
+           }
+         }
+      </script>
+      <style> 
+		 .myButton {
+			-moz-box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+			-webkit-box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+			box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+			background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #79bbff), color-stop(1, #378de5));
+			background:-moz-linear-gradient(top, #79bbff 5%, #378de5 100%);
+			background:-webkit-linear-gradient(top, #79bbff 5%, #378de5 100%);
+			background:-o-linear-gradient(top, #79bbff 5%, #378de5 100%);
+			background:-ms-linear-gradient(top, #79bbff 5%, #378de5 100%);
+			background:linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
+			filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#79bbff', endColorstr='#378de5',GradientType=0);
+			background-color:#79bbff;
+			-moz-border-radius:6px;
+			-webkit-border-radius:6px;
+			border-radius:6px;
+			border:1px solid #84bbf3;
+			display:inline-block;
+			cursor:pointer;
+			color:#ffffff;
+			font-family:Arial;
+			font-size:15px;
+			font-weight:bold;
+			padding:6px 24px;
+			text-decoration:none;
+			text-shadow:0px 1px 0px #528ecc;
+		}
+		.myButton:hover {
+			background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #378de5), color-stop(1, #79bbff));
+			background:-moz-linear-gradient(top, #378de5 5%, #79bbff 100%);
+			background:-webkit-linear-gradient(top, #378de5 5%, #79bbff 100%);
+			background:-o-linear-gradient(top, #378de5 5%, #79bbff 100%);
+			background:-ms-linear-gradient(top, #378de5 5%, #79bbff 100%);
+			background:linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
+			filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#378de5', endColorstr='#79bbff',GradientType=0);
+			background-color:#378de5;
+		}
+		.myButton:active {
+			position:relative;
+			top:1px;
+		}
+
+         #panel, #flip {
+         text-align: center;
+         background-color: #e5eecc;
+         border: solid 1px #94ccd8;
+         }
+         #panel {
+         margin-left: -20px;
+         margin-right: -30px;
+         padding: 10px;
+         display: none;
+         }
+         #panel2, #flip2 {
+         text-align: center;
+         background-color: #e5eecc;
+         border: solid 1px #94ccd8;
+         }
+         #panel2 {
+         margin-left: -20px;
+         margin-right: -30px;
+         padding: 10px;
+         display: none;
+         }
+         #panel3, #flip3 {
+         text-align: center;
+         background-color: #e5eecc;
+         border: solid 1px #94ccd8;
+         }
+         #panel3 {
+         margin-left: -20px;
+         margin-right: -30px;
+         padding: 10px;
+         display: none;
+         }
+         #panel4, #flip4 {
+         text-align: center;
+         background-color: #e5eecc;
+         border: solid 1px #94ccd8;
+         }
+         #panel4 {
+         margin-left: -20px;
+         margin-right: -30px;
+         padding: 10px;
+         display: none;
+         }
+         #panel5, #flip5 {
+         text-align: center;
+         background-color: #e5eecc;
+         border: solid 1px #94ccd8;
+         }
+         #panel5 {
+         margin-left: -20px;
+         margin-right: -30px;
+         padding: 10px;
+         display: none;
+         }
+         #panel6, #flip6 {
+         text-align: center;
+         background-color: #e5eecc;
+         border: solid 1px #94ccd8;
+         }
+         #panel6 {
+         margin-left: -20px;
+         margin-right: -30px;
+         padding: 10px;
+         display: none;
+         }
+         #panel7, #flip7 {
+         text-align: center;
+         background-color: #e5eecc;
+         border: solid 1px #94ccd8;
+         }
+         #panel7 {
+         margin-left: -20px;
+         margin-right: -30px;
+         padding: 10px;
+         display: none;
+         }
+         #panel8, #flip8 {
+         text-align: center;
+         background-color: #e5eecc;
+         border: solid 1px #94ccd8;
+         }
+         #panel8 {
+         margin-left: -20px;
+         margin-right: -30px;
+         padding: 10px;
+         display: none;
+         }
+         .dropbtn {
+         color: white;
+         padding: 16px;
+         font-size: 16px;
+         border: none;
+         cursor: pointer;
+         }
+         .dropdown {
+         position: relative;
+         display: inline-block;
+         }
+         .dropdown-content {
+         display: none;
+         width: 400px;
+         position: absolute;
+         background-color: #f9f9f9;
+         min-width: 160px;
+         overflow: auto;
+         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+         z-index: 1;
+         }
+         .dropdown-content a {
+         color: black;
+         padding: 12px 16px;
+         text-decoration: none;
+         display: block;
+         }
+         .dropdown a:hover {background-color: #f1f1f1}
+         .show {display:block;}
+		    .dropdown-content2 {
+			background-color: #989696;
+			display: none;
+			position: absolute;
+			margin-left: 80px;
+			width: 20px;
+			color: black;
+			min-width:  160px;
+			opacity: .95;
+			box-shadow: 0px 8px 20px 0px rgba(0,0,0,0.2);
+			z-index: 1;
+		}
+
+		.dropdown-content2 a {
+			color: white  ;
+			
+			padding: 0px;
+			text-decoration: none;
+			display: block;
+		}
+
+		.dropdown-content2 a:hover {background-color: #989696
+		color:white;
+		}
+
+		.dropdown2:hover .dropdown-content2 {
+			display: block;
+		} 
+		.footer {
+         position: fixed;
+         left: 0;
+         bottom: 0;
+         width: 100%;
+         background-color: #70c0e4;
+         color: white;
+         height: 60px;
+         text-align: center;
+         }
+      </style>
+      <!-- Bootstrap Core CSS -->
+      <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+      <!-- MetisMenu CSS -->
+      <link href="../vendor/metisMenu/metisMenu.min.css" rel="stylesheet">
+      <!-- Custom CSS -->
+      <link href="../dist/css/sb-admin-2.css" rel="stylesheet">
+      <!-- Custom Fonts -->
+      <link href="../vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+      <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+   </head>
+   <body >
+      <script type="text/javascript" src ="/ui/moderator.js" ></script>
+	  <script type="text/javascript" src ="/ui/auth.js" ></script>
+	  <script type="text/javascript" src ="/ui/sidebar.js" ></script>
+	  <script type="text/javascript" src ="/ui/csDomain.js" ></script>
+	  <script type="text/javascript" src ="/ui/softSkill.js" ></script>
+	  <script  >
+		window.onload=function loadfun()
+		{
+			authTest();
+			setDomain();
+			setSkill();
+			authTest2();
+		}		
+	  </script>
+	
+      <div id="popup1" class="overlay">
+         <div class="container-fluid" id="nav">
+            <div class="navbar-header">
+               <a class="navbar-brand" id = "place" href="/home" style="font-weight: bold;" title="Home">PLACEMENT CELL</a>
+               <img id="iiitv" src="/ui/1.png" style=""></img>
+               <a class="navbar-brand  dropbtn" onclick="myFunction()"  id = "place1" href="#">CHANGE PASSWORD</a>
+               <div id="myDropdown" class="dropdown-content" style="float: right; margin-left: 1052px;">
+                  <div>
+                     <form action="" style="margin:15px">
+                        <p style="text-align: left; margin-left: 0px"><b>Old Password</b></p>
+                        <input type="password" name="userid" id="oldPass">
+                        <br> 
+                        <p style="text-align: left;margin-left: 0px"><b>New Password</b></p>
+                        <input type="password" name="userid" id="newPass">
+                        <br>
+                        <p style="text-align: left;margin-left: 0px"><b>Confirm Password</b></p>
+                        <input type="password" name="userid" id="newPassConf">
+                        <br><br>
+                        <input type="button" value="Change Password" onClick="changePass();"></input>
+                     </form>
+                  </div>
+               </div>
+               <a class="navbar-brand" onClick="signoutFun();" id = "place2">LOGOUT</a>
+               <div class="three">
+               </div>
+            </div>
+         </div>
+         <div class="container">
+            <div class="row">
+               <div id="wrapper" ">
+                  <!-- Sidebar -->
+                  <div id="sidebar-wrapper" >
+                  <ul class="sidebar-nav" style="margin-left:0;">
+                     <li class="sidebar-brand">
+                        <a href="#menu-toggle"  id="menu-toggle" style="margin-top:35px;" > <i class="  glyphicon glyphicon-list" style="font-size:25px !Important;" aria-hidden="true" aria-hidden="true"></i></a> 
+                     </li>
+                    <li>
+                       <div class="dropdown2 ">
+                              <a href='#' style="display: inline; "><i class="  glyphicon glyphicon-education " aria-hidden="true" style="font-size:26px; "> </i> <span class="dropbtn2" style="margin-left:10px;"> CS/IT Domain</span>
+                              <div id="sidebarDomain" class="dropdown-content2"></div>
+							  </a><a href='/addCSDomain' style="display: inline; "><span style="margin-top: 0px; margin-left:15px; color:#999999;" class="glyphicon glyphicon-plus-sign"></span></a>
+                        </div>
+                     </li>
+                     <li>
+                        <a href="/aptitude"> <i class="glyphicon glyphicon-book" aria-hidden="true" style="font-size:26px;"> </i> <span style="margin-left:10px;"> Aptitude and Reasoning</span> </a>
+                     </li>
+                     <li>
+                        <a href="/company" style="display: inline; "> <i class=" glyphicon glyphicon-briefcase" aria-hidden="true" style="font-size:26px;"> </i> <span style="margin-left:10px;"> Company Profile</span> </a>
+						<a href="/addCompany" style="display: inline;"><span style="margin-top: 0px; margin-left:15px; color:#999999;" class="glyphicon glyphicon-plus-sign"></span></a>
+                     </li>
+                     <li>
+                        <div class="dropdown2 ">
+                           <a href="#" style="display: inline; ">
+                              <i class="  glyphicon glyphicon-user " aria-hidden="true" style="font-size:26px;"> </i> <span class="dropbtn2" style="margin-left:10px;"> Communication Skills</span> 
+                              <div id="sidebarSkill" class="dropdown-content2">
+                              </div>
+                           </a>
+						    <a href="/addSoftSkill" style="display: inline; "><span style="margin-top: 0px; margin-left:5px; color:#999999;" class="glyphicon glyphicon-plus-sign"></span>
+                        </div>
+                        <!-- <a href="#"> <i class="glyphicon glyphicon-user" aria-hidden="true" style="font-size:26px;"> </i> <span style="margin-left:10px;"> Communication Skills</span> </a> -->
+                     </li>
+                     <li>
+                        <a onclick="authTestQuiz();"> <i class="fa" aria-hidden="true" style="font-size:35px; ">&#xf128; </i> <span style="margin-left:18px;"> Quiz</span> </a>
+                     </li>
+                  </ul>
+               </div>
+               </div>
+               <!-- /#sidebar-wrapper -->
+            </div>
+         </div>
+      </div>
+      <div class="container">
+         <div class="row" style="margin-top: 70px; margin-left:35px">
+            <div class="col-lg-3 " style="margin-top: 20px; background-color:#eee ;stroke:black;stroke-width:5;  float: left;
+               height: 310px; width: 310px;margin-left: 20px;margin-right: 20px;margin-bottom: 20px;box-shadow: 6px 6px 15px #94ccd8 ; 
+               border: 2px solid #94ccd8;overflow-y: auto;overflow-x: hidden;">
+               <a style="color:#000;"><div id="flip" style="  margin-left: -17px; height:50px;width: 308px; background-color: #70c0e4; padding-left: 10px; padding-top: 5px; font-size: 30px;text-align: left; ">College Events <span class="glyphicon glyphicon-plus" style="float: right;margin-right: 10px"></span></a> 
+               </div>
+               <div id="panel">
+                  <form action="" style="margin:15px">
+                     <p style="text-align: left; margin-left: 25px"><b>Event Date: </b></p>
+                     <input type="text" name="intEventDate" id="intEventDate" placeholder="YYYY-MM-DD">
+                     <br><br> 
+                     <p style="text-align: left;margin-left: 25px"><b>Event Organiser: </b></p>
+                     <input type="text" name="intEventOrgsr" id="intEventOrgsr">
+                     <br><br> 
+                     <p style="text-align: left;margin-left: 25px"><b>Event Details: </b></p>
+                     <input type="text" name="intEventDetails" id="intEventDetails">
+                     <br><br> 
+                     <input type="button" value="Add" style="background-color: " onclick= "addintNotificationQueue()">
+                  </form>
+               </div>
+               <style type="text/css">
+                  .tg  {border-collapse:collapse;border-spacing:0;}
+                  .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px; overflow:hidden;word-break:normal;}
+                  .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px; overflow:hidden;word-break:normal;}
+                  .tg .tg-lqy6{ vertical-align:top}
+                  .tg .tg-yw4l{vertical-align:top}
+               </style>
+               <div id="box1">
+               </div>
+            </div>
+            <div class="col-lg-3 " style="margin-top: 20px; background-color:#eee ;stroke:black;stroke-width:5;  float: left;
+               height: 310px; width: 310px;margin-left: 45px;margin-right: 20px;margin-bottom: 20px;box-shadow: 6px 6px 15px #94ccd8 ; 
+               border: 2px solid #94ccd8;overflow-y: auto;overflow-x: hidden;">
+               <a style="color:#000;"><div id="flip2" style="  margin-left: -17px; height:50px;width: 308px; background-color: #70c0e4; padding-left: 10px; padding-top: 5px; font-size: 30px; text-align: left;">Other Events<span class="glyphicon glyphicon-plus" style="float: right;margin-right: 10px"></span></div></a>
+               <div id="panel2">
+                  <form action="" style="margin:15px">
+                     <p style="text-align: left; margin-left: 25px"><b>Event Date</b></p>
+                     <input type="text" name="extEventDate" id="extEventDate" placeholder="YYYY-MM-DD">
+                     <br><br> 
+                     <p style="text-align: left;margin-left: 25px"><b>Event Details</b></p>
+                     <input type="text" name="extEventDetails" id="extEventDetails">
+                     <br><br> 
+                     <p style="text-align: left;margin-left: 25px"><b>Event Organiser</b></p>
+                     <input type="text" name="extEventOrgsr" id="extEventOrgsr">
+                     <br><br> 
+                     <p style="text-align: left;margin-left: 25px"><b>Event Link</b></p>
+                     <input type="text" name="extEventLink" id="extEventLink">
+                     <br><br> 
+                     <input type="button" value="Add" style="background-color:" onclick= "addextNotificationQueue()">
+                  </form>
+               </div>
+               <style type="text/css">
+                  .tg  {border-collapse:collapse;border-spacing:0;}
+                  .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px; overflow:hidden;word-break:normal;}
+                  .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px; overflow:hidden;word-break:normal;}
+                  .tg .tg-lqy6{ vertical-align:top}
+                  .tg .tg-yw4l{vertical-align:top}
+               </style>
+               <div id="box2">
+               </div>
+            </div>
+            <div class="col-lg-3 " style="margin-top: 20px; background-color:#eee ;stroke:black;stroke-width:5;  float: left;
+               height: 310px; width: 310px;margin-left: 45px;margin-right: 20px;margin-bottom: 20px;box-shadow: 6px 6px 15px #94ccd8 ; 
+               border: 2px solid #94ccd8;overflow-y: auto;overflow-x: hidden;">
+               <a style="color:#000;"><div id="flip3" style="  margin-left: -17px; height:50px;width: 308px; background-color: #70c0e4; padding-left: 10px; padding-top: 5px; font-size: 30px; text-align: left;">Project Pooling<span class="glyphicon glyphicon-plus" style="float: right;margin-right: 10px"></span></div></a>
+               <div id="panel3">
+                  <form action="" style="margin:15px">
+				     <p style="text-align: left; margin-left: 25px"><b>Project Title</b></p>
+                     <input type="text" name="projectTitle" id="projectTitle">
+                     <p style="text-align: left; margin-left: 25px"><b>Keywords</b></p>
+                     <input type="text" name="keywords" id="keywords">
+                     <br><br> 
+                     <p style="text-align: left;margin-left: 25px"><b>Project Link</b></p>
+                     <input type="text" name="projLink" id="projLink">
+                     <br><br> 
+                     <p style="text-align: left;margin-left: 25px"><b>Project Contributors</b></p>
+                     <input type="text" name="contributors" id="contributors">
+                     <br><br> 
+                     <input type="button" value="Add" style="background-color:" onclick="addprojPoolQueue()">
+                  </form>
+               </div>
+               <style type="text/css">
+                  .tg  {border-collapse:collapse;border-spacing:0;}
+                  .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px; overflow:hidden;word-break:normal;}
+                  .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px; overflow:hidden;word-break:normal;}
+                  .tg .tg-lqy6{ vertical-align:top}
+                  .tg .tg-yw4l{vertical-align:top}
+               </style>
+               <div id="box3">
+               </div>
+            </div>
+         </div>
+         <div class="row" style=" margin-bottom: 70px; margin-left:35px">
+            <div class="col-lg-3 " style="margin-top: 20px; background-color:#eee ;stroke:black;stroke-width:5;  float: left;
+               height: 310px; width: 310px;margin-left: 20px;margin-right: 20px;margin-bottom: 20px;box-shadow: 6px 6px 15px #94ccd8 ; 
+               border: 2px solid #94ccd8;overflow-y: auto;overflow-x: hidden;">
+               <a style="color:#000;"><div id="flip4" style="  margin-left: -17px; height:50px;width: 308px; background-color: #70c0e4; padding-left: 10px; padding-top: 5px; font-size: 30px;text-align: left; ">Apply On Campus <span class="glyphicon glyphicon-plus" style="float: right;margin-right: 10px"></span></div></a>
+               <div id="panel4">
+                  <form action="" style="margin:15px">
+                     <p style="text-align: left; margin-left: 25px"><b>Company Name</b></p>
+                     <input type="text" name="companyName" id="companyName">
+                     <br><br> 
+                     <p style="text-align: left;margin-left: 25px"><b>Company Link</b></p>
+                     <input type="text" name="companyLink" id="companyLink">
+                     <br><br> 
+                     <p style="text-align: left;margin-left: 25px"><b>Arrival Date</b></p>
+                     <input type="text" name="arrivalDate" id="arrivalDate" placeholder="YYYY-MM-DD">
+                     <br><br> 
+                     <input type="button" value="Add" style="background-color: " onclick="addcompanyQueue()">
+                  </form>
+               </div>
+               <style type="text/css">
+                  .tg  {border-collapse:collapse;border-spacing:0;}
+                  .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px; overflow:hidden;word-break:normal;}
+                  .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px; overflow:hidden;word-break:normal;}
+                  .tg .tg-lqy6{ vertical-align:top}
+                  .tg .tg-yw4l{vertical-align:top}
+               </style>
+               <div id="box4">
+               </div>
+            </div>
+            <div class="col-lg-3 " style="margin-top: 20px; background-color:#eee ;stroke:black;stroke-width:5;  float: left;
+               height: 310px; width: 310px;margin-left: 45px;margin-right: 20px;margin-bottom: 20px;box-shadow: 6px 6px 15px #94ccd8 ; 
+               border: 2px solid #94ccd8;overflow-y: auto;overflow-x: hidden;">
+               <a style="color:#000;"><div id="flip5" style="  margin-left: -17px; height:50px;width: 308px; background-color: #70c0e4; padding-left: 10px; padding-top: 5px; font-size: 30px; text-align: left;">Apply Off Campus <span class="glyphicon glyphicon-plus" style="float: right;margin-right: 10px"></span></div></a>
+               <div id="panel5">
+                  <form action="" style="margin:15px">
+                     <p style="text-align: left; margin-left: 25px"><b>Recruitment Details</b></p>
+                     <input type="text" name="recruitDetails" id="recruitDetails">
+                     <br><br> 
+                     <p style="text-align: left;margin-left: 25px"><b>Recruitment Link</b></p>
+                     <input type="text" name="recruitLink" id="recruitLink">
+                     <br><br> 
+                     <input type="button" value="Add" style="background-color: " onclick="addextRecruitmentQueue()">
+                  </form>
+               </div>
+               <style type="text/css">
+                  .tg  {border-collapse:collapse;border-spacing:0;}
+                  .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px; overflow:hidden;word-break:normal;}
+                  .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px; overflow:hidden;word-break:normal;}
+                  .tg .tg-lqy6{ vertical-align:top}
+                  .tg .tg-yw4l{vertical-align:top}
+               </style>
+               <div id="box5">
+               </div>
+            </div>
+            <div class="col-lg-3 " style="margin-top: 20px; background-color:#eee ;stroke:black;stroke-width:5;  float: left;
+               height: 310px; width: 310px;margin-left: 45px;margin-right: 20px;margin-bottom: 20px;box-shadow: 6px 6px 15px #94ccd8 ; 
+               border: 2px solid #94ccd8;overflow-y: auto;overflow-x: hidden;">
+               <a style="color:#000;"><div id="flip6" style="  margin-left: -17px; height:50px;width: 308px; background-color: #70c0e4; padding-left: 10px; padding-top: 5px; font-size: 30px; text-align: left;">Success Stories<span class="glyphicon glyphicon-plus" style="float: right;margin-right: 10px"></span></div></a>
+               <div id="panel6">
+                  <form action="" style="margin:15px">
+                     <p style="text-align: left;margin-left: 25px"><b>Title</b></p>
+                     <input type="text" name="storyTitle" id="storyTitle">
+                     <br><br> 
+          
+					 <p style="text-align: left; margin-left: 25px"><b>Story</b></p>
+                     <!-- <input type="text" name="userid" > -->
+					 <textarea name="paragraph_text" cols="33" rows="10" id="story"></textarea>
+                     <br><br> 
+                     <input type="button" value="Add" style="background-color: " onClick="addsuccessStoryQueue();">
+                  </form>
+               </div>
+               <style type="text/css">
+                  .tg  {border-collapse:collapse;border-spacing:0;}
+                  .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px; overflow:hidden;word-break:normal;}
+                  .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px; overflow:hidden;word-break:normal;}
+                  .tg .tg-lqy6{ vertical-align:top}
+                  .tg .tg-yw4l{vertical-align:top}
+               </style>
+               <div id="box6">
+               </div>
+            </div>
+         </div>
+		 
+		 <!-- <div> -->
+			<!-- <a href="#" class="myButton" onClick="">Add a Quiz</a> -->
+			<!-- <!--<input type="button" value="Add a quiz" style="background-color: " onClick="addsuccess();"> --> 
+		 <!-- </div> -->
+		 <!-- <br> -->
+		 
+         <div class="footer">
+         <p style="font-size: 20px; margin-top: 15px;">Copyright © 2017 iiitv</p>
+      </div>
+      </div>
+      <script>
+         $("#menu-toggle").click(function(e) {
+             e.preventDefault();
+             $("#wrapper").toggleClass("toggled");
+         });
+      </script>
+   </body>
+</html>
+
+
+
+
+<!--
+		<table class="tg">
+                <tr>
+                  <th class="tg-yw4l"><h4><a href=$(companyLink)> ${companyName}- ${arrivalDate} </a></h4></th>
+				  <td> <span class="glyphicon glyphicon-remove" onclick="deletecompanyQueue(${companyNo})"></span> </td>
+				  <td> <span class="glyphicon glyphicon-remove" onclick="deletecompanyQueue(${companyNo})"></span> </td>
+                </tr>
+                
+             </table>
+
+ -->
